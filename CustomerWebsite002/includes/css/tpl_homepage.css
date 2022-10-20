@@ -1,0 +1,74 @@
+/*--General Tags--*/
+body{
+  background-image: url("../../images/bg.jpg");
+  background-repeat: repeat-x;
+  background-color: black;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #4F4F4F;
+  margin: 0;
+  padding: 0; 
+  }
+
+a, td a{
+	text-decoration: none;
+	color: #4F4F4F;
+	font-size: 11px;
+}
+
+/*--Content--*/
+
+.menu {
+  background-image: url("../../images/index_04.gif");
+ 	width:            687px;
+ 	height:           50px;
+ 	text-align:center;
+}
+
+
+      .menu ul {
+        margin: 0 0 0 0; 
+        padding: 18px 0 0 0 ; 
+      	list-style-type: none; 
+        list-style-image: none;
+        
+      }
+      .menu li{
+        display: inline;      
+      }
+      
+      .menu li a {
+        padding: 17px 28px 17px 28px;
+        color: white;
+        font-size: 14px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+      	text-decoration: none;
+      	font-weight: bold;
+      }
+      
+      .menu li a:hover {
+        color: black;
+      	background: #8AE20A;
+        }
+
+      .menu li a.open {
+        padding: 17px 28px 17px 28px;
+        color: black;
+      	background: #8AE20A;
+        }
+
+#content {
+ 	padding: 15px 0 1px 0;
+ 	width:            687px;
+  background: url("../../images/index_06.gif");
+}
+
+#content .table {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+  padding: 0;
+  margin: 0;
+  width:  691px;
+}
+
+
