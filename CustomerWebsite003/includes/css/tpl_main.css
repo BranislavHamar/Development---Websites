@@ -1,0 +1,490 @@
+/*--General Tags--*/
+
+body, html { 
+  margin:               0px 0px 0px 0px; 
+  padding:              0px 0px 0px 0px;
+  height:               100%;
+}
+
+body {
+  background-image:     url("../../images/background.jpg");
+  background-repeat:    repeat;
+  background-position:  top center;
+  text-align:           center;
+  font-family:          "Palatino Linotype", serif;
+  color:                #3A230C;
+}
+
+img {
+  border:               0px;
+}
+
+h1 {
+
+  font-family:          "Palatino Linotype", serif;
+  color:                #CA7058;
+  font-size:            35px;
+  font-weight:          normal;
+  text-align:           left;
+  padding-left:         60px;
+  margin-top:           0px;
+}
+
+table {
+  margin-left:          60px;
+  width:                530px;
+
+}
+
+table td {
+  vertical-align:       text-top;
+}
+
+strong{
+  color:                #CA7058;
+  font-weight:          bold;
+}
+
+
+                
+.hide {
+  display:              none;
+}
+
+.show {
+  display:              block;
+}
+
+.gram {
+color:                  #999999;
+font-weight:            bold;
+}
+
+
+.form {
+  width:                500px;
+  text-align:           right;
+}
+
+.form .polozka input, .form .polozka textarea {
+  width:                250px;
+}
+
+.form input, .form textarea {
+  color:                #3A230C;
+  background:           #F4DBAB;
+  border:               1px solid #3A230C;
+  margin-bottom:        4px;
+}
+
+.form .submit input {
+  color:                #EFE3B1;
+  background:           #3A230C;
+  border:               1px solid #EFE3B1;
+}
+
+.form .kontrola {
+  visibility:           hidden;
+}
+
+.attention {
+  margin-left:          30px;
+  color:                #875B2F;
+}
+
+.viac {
+  font-size:            12px;
+  color:                #875B2F;
+}
+/*--DIV Tags--*/
+
+#container {
+  margin:               0px auto 0px auto;
+  background-image:     url("../../images/background-container.jpg");
+  background-repeat:    no-repeat;
+  background-position:  top center;
+  width:                100%;
+}
+
+#footer {
+  margin:               0px auto 0px auto;
+  background-image:     url("../../images/background-footer.png");
+  background-repeat:    no-repeat;
+  background-position:  bottom center;
+  width:                100%;
+  padding-bottom:       470px;
+}
+
+#header {
+  margin:               0px auto 0px auto;
+  background-image:     url("../../images/background-header.jpg");
+  background-repeat:    no-repeat;
+  background-position:  top center;
+  width:                1000px;
+  height:               618px;
+  text-align:           center
+}
+
+        #header #top  {
+        margin:           0px auto 0px auto;
+        height:           120px;
+        width:            940px;
+        margin-top:       0px;
+
+        }
+        
+        #header #top #logo a {
+        float:            left;
+        background-image: url("../../images/blank.gif");
+        display:          block;
+        height:           80px;
+        width:            410px;
+        margin-top:        0px;
+        margin-left:     0px;
+        }
+        
+        
+        
+        #header #top #meniny {
+        float:                  left;
+        width:                  175px;
+        height:                 20px;
+        font-weight:            bold;
+        font-size:              12px;
+        margin-left:            110px;
+        margin-top:             55px;
+        }
+
+
+        #header #top #rezervacie {
+        float:                  left;
+        width:                  200px;
+        height:                 100px;
+        font-weight:            bold;
+        font-size:              16px;
+        margin-left:            10px;
+        margin-top:             15px;
+        text-align:             center;
+        }
+        
+        #header #top #rezervacie h1{
+        background-image:     url("../../images/vzor.png");
+        background-repeat:    no-repeat;
+        background-position:  bottom center;
+        color:                #3A230C;
+        margin:               0px;
+        padding-left:         30px;
+        font-size:            25px;
+        height:               60px;
+        font-weight:          bold;
+        }
+
+        #header #top #rezervacie a{
+        text-decoration:       none;
+        color:                #3A230C;
+        }
+        
+        
+        #header #top #rezervacie a:hover {
+        text-decoration:       underline;
+                }
+
+#header #scroll {
+margin:               0px auto 0px auto;
+margin-top:       80px;
+clear:            both;
+height:           15px;
+width:            40px;
+}                      
+                                
+#header #menu {
+  clear:                  both;
+  margin-top:             206px;
+  margin-right:           40px;
+	font-size:               19px;
+	font-variant:            small-caps;
+}
+
+
+#header #menu ul a, #header menu ul a:visited {
+	font-family:           "Palatino Linotype", serif;
+	color:                 #3A230C;
+	font-weight:           bold;
+	text-decoration:       none;
+  padding:               0px 10px 0px 10px;
+}
+
+#header #menu ul li a.kniha-navstev {
+  color:                 #C20002;
+}
+
+#header #menu ul a:hover, .active {
+	background-color:      #C97350;
+	text-decoration:       none;
+}
+
+
+#header #menu .active2 {
+  color:                  #C20002;
+	background-color:       #C97350;
+	text-decoration:        none;
+}
+
+#header #menu li {
+	list-style:              none;
+	display:                 inline;
+	margin:                  0px 20px 0px 10px;
+}
+
+#header #header-img-1, #header #header-img-x {
+width:        1000px;
+height:       139px;
+margin-top:   -22px;
+background-repeat:    no-repeat;
+background-position:  bottom center;
+}
+
+#header #header-img-1 {
+  background-image:     url("../../images/menu_1.jpg");
+}
+
+#header #header-img-x {
+  background-image:     url("../../images/menu_x.jpg");
+}
+	
+#content {
+  clear:                both;
+  margin:               0px auto 0px auto;
+  background-image:     url("../../images/background-content.png");
+  background-repeat:    repeat-y;
+  background-position:  top center;
+  width:                1000px;
+  min-height:           450px; 
+  _height:              450px; /*IE hack*/
+  overflow:             hidden;
+  _overflow:            visible; /*IE hack*/
+}
+
+#content #text {
+
+  width:                622px;
+  float:                left;
+  min-height:           350px; 
+  _height:              350px; /*IE hack*/
+  overflow:             hidden;
+  _overflow:            visible; /*IE hack*/
+}
+
+#content #text p{
+  color:                black;
+  padding-left:         60px;
+  padding-right:        20px;
+  line-height:          225%;
+  text-align:           justify;
+  font-size:            16px;
+}
+
+#content #text p.intend{
+  text-indent:          40px;
+}
+  
+#content #text #alert {
+  color:                #CD2E2A;
+  font-size:            24px;
+  padding-left:         300px;
+  font-weight:          bold;
+}
+
+#content #text .comment {
+  padding-left:         70px;
+  padding-right:        30px;
+  text-align:           justify;
+}
+
+#content #ram {
+  float:                left;
+  background-image:     url("../../images/ram.jpg");
+  width:                352px;
+  margin-bottom:        20px;
+}
+
+#content #ram hr{
+  width:                140px;
+  color:                #000000;
+  background-color:     #000000;
+  height:               1px;
+}
+
+
+#content #ram h2 {
+  height:               60px;
+  margin-top:           15px;
+  background-image:     url("../../images/vzor.png");
+  background-repeat:    no-repeat;
+  background-position:  bottom center;
+
+}
+
+#content #ram h2 a {
+  font-family:          "Palatino Linotype", serif;
+  font-size:            22px;
+	text-decoration:       none;
+	color:                #3A230C;
+}
+
+
+
+#content #ram li a, #content #ram p a{
+  font-family:          "Palatino Linotype", serif;
+  font-size:            15px;
+	text-decoration:       none;
+	color:                #3A230C;
+
+}
+
+      #content #ram h2 a:hover, #content #ram li a:hover, #content #ram p a:hover {
+        text-decoration:       underline;
+                }
+                
+                
+#content #ram li {
+		list-style:              none;
+		margin-left:          -40px;
+}
+#content #ram p {
+  margin:               10px 75px 10px 75px;
+}
+
+#content #ram #ram-bottom {
+  background-image:     url("../../images/ram-bottom.jpg");
+  width:                352px;
+  height:               62px;
+}
+
+#content #akcie, #content #galeria {
+clear:          both;
+height:         250px;
+padding-left:   30px;
+}
+
+#content #akcie img, #content #galeria img, #content #text img{
+	border-style:        solid;
+	border-color:        #35200C;
+	border-width:        2px;
+  margin-top:          5px;
+}
+
+#content .akcie-topic, .galeria-topic{
+  display:              inline;
+  float:                left;
+  width:                150px;
+  height:               190px;
+  margin-left:          35px;
+  margin-top:           20px;
+  padding-bottom:       40px;
+  background-image:     url("../../images/vzor.png");
+  background-repeat:    no-repeat;
+  background-position:  bottom center;
+
+}
+
+#content .akcie-topic a, #content .galeria-topic a, #content #text .gallery-catlist a{
+  font-family:          "Palatino Linotype", serif;
+  color:                #CA7058;
+  font-size:            17px;
+  text-decoration:      none;
+
+}
+
+#content .akcie-topic a:hover, #content .galeria-topic a:hover, #content #text .gallery-catlist a:hover {
+        text-decoration:       underline;
+}             
+
+
+#content #text h2{
+  font-family:          "Palatino Linotype", serif;
+  color:                #CA7058;
+  font-size:            22px;
+  margin-bottom:        0px;
+  margin-top:           20px;
+}
+#content #text .gallery-catlist a {
+  font-size:            16px;
+  color:                #875B2F;
+}
+
+#content #text .gallery-catlist img{
+
+  margin-top:           0px;
+  margin-left:          10px;
+}
+
+#content #text p.gallery-imgs {
+margin-left: 20px;
+}
+
+#content #newsletter {
+  float:                left;
+  margin-left:          70px;
+  margin-top:           15px;
+  width:                204px;
+  height:               206px;
+  background-image:     url("../../images/form.gif");
+  background-repeat:    no-repeat;
+  background-position:  bottom center;          
+}
+
+#content #newsletter a {
+        float:            right;
+        background-image: url("../../images/blank.gif");
+        display:          block;
+        height:           35px;
+        width:            35px;
+        margin-top:       35px;
+        margin-right:     35px;
+        display:          inline;
+}
+
+#content #newsletter form{
+  margin-top:           162px;
+
+}
+
+#content #newsletter form input{
+  background-color: transparent;
+  border: 0px outset;
+  height:   20px;
+}
+
+#content #newsletter form input.email{
+
+  width:    110px;
+  margin-left:  10px;
+}
+
+#content #3d {
+        width:        330px;
+        height:       95px;
+
+        }
+
+#footer #bottom {
+  margin:               0px auto 0px auto;
+  background-image:     url("../../images/background-content-bottom.png");
+  background-repeat:    no-repeat;
+  background-position:  top left;
+  width:                962px;
+  height:               82px;
+}
+
+
+        #footer #bottom a {
+        float:            right;
+        background-image: url("../../images/blank.gif");
+        display:          block;
+        height:           35px;
+        width:            95px;
+        margin-top:       45px;
+        margin-right:     45px;
+        display:          inline;
+        }

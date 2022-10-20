@@ -1,0 +1,25 @@
+/*--General Tags--*/
+
+        #header #top #rezervacie h1{
+        background-image:     url("../../images/vzor.gif");
+        }
+
+#content {
+  background-image:     url("../../images/background-content.gif");
+  }
+#content #ram h2 {
+  background-image:     url("../../images/vzor.gif");
+}
+
+#content .akcie-topic{
+  background-image:     url("../../images/vzor.gif");
+}
+
+#footer {
+  background-image:     url("../../images/background-footer.jpg");
+  }
+#footer #bottom {
+    background-image:     url("../../images/background-content-bottom.jpg");
+    }
+    
+    
