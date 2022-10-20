@@ -1,0 +1,527 @@
+body, html { 
+
+  margin:               0px 0px 0px 0px; 
+
+  padding:              0px 0px 0px 0px;
+
+
+}
+
+
+
+#header {
+
+  display:none;
+
+}
+
+
+
+#main {
+
+display:none;
+
+}
+
+
+
+
+
+#documents.  senderAddress{
+		    line-height: 2mm;
+			margin-bottom: 1mm;
+			margin-top: 1mm;
+		 }
+
+#documents  .deliveryAddress{
+		    line-height: 3mm;
+		 }
+
+#documents 	.table1{
+		height: 25mm;
+        }
+
+#documents 	.table1td1{
+		width: 56mm;
+		height: 25mm;
+		border-right: 1px solid #000000; 
+        }
+
+#documents 	.table1td1table{
+		width: 56mm;
+		height: 25mm;
+        }
+
+#documents   .table1td2{
+		height: 17mm;
+		border-bottom: 1px solid #000000; 
+        }
+
+#documents 	.table1td3{
+		height: 8mm;
+        }
+
+#documents 	.table2td1{
+		width: 64mm;
+		border-right: 1px solid #000000; 
+        }
+
+#documents 	.table2td1table{
+		width: 64mm;
+        }
+
+#documents 	.table3{
+		height: 8mm;
+        }
+
+#documents 	.table3td1{
+		width: 84mm;
+		height: 8mm;
+		border-right: 1px solid #000000; 
+        }
+
+#documents .table3td2{
+		height: 8mm;
+        }
+
+#documents 	.table4td1{
+		width: 50mm;
+		border-right: 1px solid #000000; 
+        }
+
+#documents 	.table4td2{
+		width: 30mm;
+		border-right: 1px solid #000000; 
+        }
+
+#documents         font.addressHeader
+		{
+		color : black;
+		font-weight : bold;
+		font-family :   'arial';
+		font-size : 6pt;
+	    }	
+
+#documents         font.addressHeaderCode
+		{
+		color : black;
+		font-weight : bold;
+		font-family :   'arial';
+		font-size : 8pt;
+		letter-spacing: 0.2cm
+	    }	
+
+#documents         font.barcode
+		{
+		color : black;
+		font-weight : bold;
+		font-family :   'arial';
+		font-size : 8pt;
+		letter-spacing: 0.1cm
+	    }	
+
+#documents         font.addressHeaderRec
+		{
+		color : black;
+		font-weight : bold;
+		font-family :  'arial';
+		font-size : 6pt;
+	    }	
+
+#documents 		font.addressData
+		{
+		color : black;
+		font-family :  'courier new';
+		font-size : 8pt;
+		}
+
+#documents 		font.addressDataRec
+		{
+		color : black;
+		font-weight : bold;
+		font-family :  'courier new';
+		}
+
+#documents 		font.addressDataWeight
+		{
+		color : black;
+		font-weight : bold;
+		font-family :  'courier new';
+		font-size : 11pt;
+		}
+
+#documents 		font.addressSmallPrint
+		{
+		font-family : 'courier new';
+		font-size : 4pt;
+		}
+#documents 		td font.addressSmallPrint
+		{
+		line-height: 3px;
+		font-family : 'courier new';
+		font-size : 4pt;		
+		}
+		
+#documents 		font.addressSmallPrintLink
+		{
+		font-family : 'courier new';
+		font-size : 5pt;
+		}
+		
+#documents 		font.header {
+			color : black;
+			font-weight : bold;
+			font-family : arial, helvetica 'sans-serif';
+			font-size : 8pt;
+	    }	
+
+#documents 		font.invoiceHeader {
+			color : black;
+			background-color : white;
+			font-weight : bold;
+			font-family : arial, helvetica 'sans-serif';
+			font-size : 10pt;
+	    }	
+		
+#documents 		font.data {
+			color : black;
+			font-family : arial , 'sans-serif';
+			font-size : 8pt;
+		}
+
+#documents 		font.smallprint {
+			color : black;
+			background-color : white;
+			font-family : arial,  'sans-serif';
+			font-size : 6pt;
+		}
+		
+#documents 		font.smallprintlink {
+			color : black;
+			background-color : white;
+			font-family : arial,  'sans-serif';
+			font-size : 7pt;
+		}
+
+#documents 		font.auSmallPrint {
+			color : black;
+			background-color : white;
+			font-family : arial,  'sans-serif';
+			font-size : 7pt;
+		}
+
+#documents 		font.auSmallPrintLink {
+			color : black;
+			background-color : white;
+			font-family : arial,  'sans-serif';
+			font-size : 7pt;
+            text-decoration:underline;
+		}
+
+#documents 		font.carrierLicence
+		{
+		color : black;
+		font-family :  'courier new';
+		font-size : 7pt;
+		}
+
+#documents 		.normalService {
+			font-size: x-large;	
+		}
+
+#documents 		.premiumService { 
+			font-size: xx-large;
+			font-weight: bold;
+		}
+
+#documents 		.tntTelephone {
+			font-size: small;
+		}
+
+#documents 		.deliveryDepot {
+			font-size: 96px;
+		}
+
+#documents 		.data {
+		}
+
+#documents 		.dataBold {
+			font-weight: bold;
+		}
+
+#documents 		.label {
+		}
+
+#documents 		.deliveryPostcode {
+			font-size: xx-large;
+			font-weight: bold;
+		}
+				
+#documents 		table.outLine {
+			border: 1px solid #656566;
+			border-collapse : collapse;
+			padding : 1px;
+			background-color: #FFFFFF;
+			line-height: 12px;		
+			table-layout: fixed;
+			word-wrap: break-word;
+		}
+		
+#documents 		table.printTable {
+			border-spacing:0px;
+			white-space: normal;			
+			font-weight: normal;
+			font-size: medium;
+			font-variant: normal;
+			font-style: normal;
+			color: -webkit-text;
+			text-align: start;
+		}
+		
+#documents 		td.outLineCell {
+			border: 1px solid #656566;
+		}		
+
+#documents 		div.pagebreak {
+			page-break-before : always;
+		}
+		
+         
+        /*
+		SR 8668 CHANGE - myTNT Document Printing
+		Font Style added for ServiceCode,OperationsFlow,ProductCode and PostProduct 
+	    */
+#documents           font.serviceCode {
+          
+           color : black;
+           font-weight : bold;
+           font-family : arial;
+           font-size : 18pt;
+          
+          }
+          
+#documents           font.operationsFlow {
+          
+           color : black;
+           font-weight : bold;
+           font-family : arial;
+           font-size : 24pt;
+          
+          }
+          
+          font.productCode {
+          
+           color : black;
+           font-weight : bold;
+           font-family : arial;
+           font-size : 12pt;
+          
+          }
+          
+          font.postProduct {
+          
+           color : black;
+           font-family : arial;
+           font-size : 10pt;
+          
+          }
+          
+          font.domestic {
+          
+           color : black;
+           font-weight : bold;
+           font-family : arial;
+           font-size : 16pt;
+          
+          }     
+
+
+
+	font.addressData {
+			font-size : 8pt;
+}
+
+#documents font.addressDataRec {
+	font-size:8pt
+}
+
+div#documents table.mainTable1  {
+	width: 126mm;
+	height: 73mm; 
+  border: 1px solid black;
+}
+
+#documents table.mainTable2  {
+	width: 126mm;
+	height: 73mm;
+}
+
+#documents .table1 {
+	width: 126mm;
+}
+
+#documents .table1td2 {
+	width: 60mm;	
+}
+
+#documents .table1td3 {
+	width: 60mm;	
+}
+
+#documents .table3 {
+	width: 126mm;
+}
+
+#documents .table3td2 {
+	width: 32mm;
+}
+
+#documents .t21 {
+	height: 20mm;
+	width: 116 mm;
+}
+
+.t22 {
+	height: 20mm;	
+}
+
+.t23 {
+	height: 20mm;	
+}
+
+.t24 {
+	height: 20mm;
+	width: 58mm;
+}
+
+.t41 {
+	height: 10mm;
+	width: 126mm
+}
+
+.t42 {
+	height: 10mm;		
+}
+
+.t43 {
+	height: 10mm;		
+}
+
+.t44 {
+	height: 10mm;
+	width: 18mm;
+}
+
+.table4height {
+	height: 10mm;
+}
+
+.table2height {
+	height: 20mm;
+}
+
+
+
+
+
+
+	font.addressData {
+		_font-size : 8pt;
+}
+
+font.addressDataRec {
+	_font-size:8pt
+}
+
+table.mainTable1  {
+	_width: 126mm;
+	_height: 92mm;
+}
+
+table.mainTable2  {
+	_width: 126mm;
+	_height: 92mm;
+}
+
+.table1 {
+	_width: 126mm;
+}
+
+.table1td2 {
+	_width: 70mm;	
+}
+
+.table1td3 {
+	_width: 70mm;	
+}
+
+.table3 {
+	_width: 126mm;
+}
+
+.table3td2 {
+	_width: 42mm;
+}
+
+.t21 {
+	_height: 28mm;
+	_width: 126mm;
+}
+
+.t22 {
+	_height: 28mm;	
+}
+
+.t23 {
+	_height: 28mm;	
+}
+
+.t24 {
+	_height: 28mm;
+	_width: 62mm;
+}
+
+.t41 {
+	_height: 21mm;
+	_width: 126mm
+}
+
+.t42 {
+	_height: 21mm;		
+}
+
+.t43 {
+	_height: 21mm;		
+}
+
+.t44 {
+	_height: 21mm;
+	_width: 28mm;
+}
+
+.table4height {
+	_height: 21mm;
+}
+
+.table2height {
+	_height: 28mm;
+}
+table.connote font {
+	_display: block;
+	_text-align: left;
+}
+table.connote font.center {
+	_display: block;
+	_text-align: center;
+}
+
+hr[noshade='noshade'] {
+	_border-top-width: 0px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+/* CSS Document */
+
+body, html { 
+
+  margin:               0px 0px 0px 0px; 
+
+  padding:              0px 0px 0px 0px;
+
+  height:               100%;
+
+  font-family:          Arial, sans-serif;
+
+  font-size:            11px;
+
+  background-color:     #F7F7F7;
+
+  text-align:           center;
+  
+  background-image:     url('/images/view-bg.png');
+  
+  background-repeat:    repeat-x;  
+
+
+}
+
+
+
+#logo {
+   background-image:    url('/images/view-logo-cc.png');
+   background-repeat:   no-repeat;
+   background-position: 0px 10px;
+   float:               left;
+   margin-left:         0px;
+   padding-left:        0px;   
+   width:               23px;
+   height:              805px;
+}
+
+
+#page {
+       
+   float:               left;
+   margin-left:         0px;
+   padding-left:        0px;
+   width:               97%;
+   height:              1000px;
+}
+
+  #page #header{
+    background-image:     url('/images/view-header-bg.png');
+    margin:               0px auto 0px auto; 
+    padding:              0px auto 0px auto;
+    width:                100%;
+    min-width:            1290px;
+    height:               80px;
+  }
+
+  #page #header #menu ul {
+    margin:               0px 0px 0px 0px; 
+    padding:              0px 0px 0px 0px;
+  }  
+ 
+  #page #header #menu ul li {
+  	list-style:         none;
+  	display:            inline;
+    float:              left;
+  }
+
+
+
+
+  #page #header #menu #menu-home {
+    background-image:   url('/images/view-header-logo.png');
+    width:              125px;
+    height:             80px;
+    padding-top:        0px;
+    padding-left:       40px;
+    padding-right:      80px;
+    padding-bottom:     60px;
+         
+  }
+
+  #page #header #menu #menu-monitor {
+    background-image:   url('/images/view-menu-1-off.png');
+    background-repeat:   no-repeat;
+    background-position: 0px 5px;    
+    width:              125px;
+    height:             50px;
+    padding-top:        0px;
+    padding-left:       40px;
+    padding-right:      50px;
+    padding-bottom:     20px;
+   
+     
+  }
+
+  #page #header #menu #menu-statistics {
+    background-image:   url('/images/view-menu-2-off.png');
+    background-repeat:   no-repeat;
+    background-position: 0px 4px;    
+    width:              125px;
+    height:             40px;
+    padding-top:        0px;
+    padding-left:       40px;
+    padding-right:      50px;
+    padding-bottom:     20px;          
+
+  }
+    
+#page #content{
+  margin:               0px auto 0px auto; 
+  padding:              0px 10px 10px 10px;
+  background-color:     white;
+  overflow:             hidden;
+  min-width:            1270px;
+}

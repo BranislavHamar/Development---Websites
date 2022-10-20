@@ -1,0 +1,519 @@
+body, html { 
+
+  margin:               0px 0px 0px 0px; 
+
+  padding:              0px 0px 0px 0px;
+
+  height:               100%;
+
+  font-family:          Arial, sans-serif;
+
+  font-size:            12px;
+
+  background-color:     #F7F7F7;
+
+  text-align:           center;
+
+}
+
+#documents {
+
+  display:              none;
+
+}
+
+#header {
+
+        background-color: #FFF;
+
+        border-bottom-width: 3px;
+
+        border-bottom-style: solid;
+
+        border-bottom-color: #FF6300;
+
+        padding-top: 15px;
+
+        height: 70px;
+
+}
+
+
+
+#header #row #logo {
+
+        background-image: url('/images/logo.png');
+
+        background-repeat: no-repeat;
+
+        display: block;
+
+        height: 26px;
+
+        margin-bottom: 14px;
+
+        overflow: hidden;
+
+        _overflow: visible;
+
+        text-indent: -1999px;
+        
+        width:    960px;
+
+}
+
+
+#header #row #banner {
+
+        
+        display: block;
+
+        overflow: hidden;
+
+        _overflow: visible;
+
+        width: 240px;
+
+        margin-left:800px;
+
+        _margin-left:0px;
+        
+        _padding-left:120px;
+        
+        margin-top:-50px;
+        
+        position: absolute;
+
+
+}
+
+
+
+#header #row {
+
+        margin:               0px auto 0px auto; 
+
+        padding:              0px auto 0px auto;
+
+        width:                960px;   
+
+}
+
+
+
+#header #nav a{
+
+
+
+        color:                black;
+
+        text-decoration:      none;
+
+        z-index: 10;
+
+}
+
+
+
+#header #nav ul, #main #footer ul {
+
+        list-style:           none outside none;
+
+        padding-left:         0px;
+
+        margin-left:         0px;
+}
+
+
+
+
+
+
+
+
+
+#header #nav ul li{
+
+    font-size: 12px;
+
+    padding-right: 20px;
+
+    text-transform: uppercase;
+
+    float: left;
+
+    margin-bottom: -10px;
+
+    padding-bottom: -10px;
+}
+
+#main #footer ul li{
+
+    font-size: 12px;
+
+    padding-right: 20px;
+
+    float: left;
+
+    margin-bottom: -10px;
+
+    padding-bottom: -10px;
+}
+
+
+#main {
+
+  font-family:          Arial, sans-serif;
+
+  margin:               0px auto 0px auto; 
+
+  padding:              0px auto 0px auto;
+
+  width:                960px;
+
+  text-align:           left;
+
+}
+
+#main #footer {
+  padding-top:           30px;
+
+  color:                grey;
+
+        font-size:            11px;
+}
+
+
+#main #footer hr {
+  color:                #F8F8FF;
+
+  background-color:     #F8F8FF;
+
+  height:               2px;
+}
+
+
+#main #footer a {
+
+        color:                black;
+
+        text-decoration:      none;
+
+}
+
+
+#information, #address, #shipment, #service, #collection, #login {
+
+  background-color:     white;
+
+  margin-bottom:        15px;
+
+  border-style:         solid;
+
+  border-width:         1px;
+
+  border-color:         #B3B3B3;
+
+  padding-bottom:       15px;
+
+}
+
+
+
+#submit {
+
+  text-align:           right;
+
+}
+
+
+
+
+
+#documents {
+
+  display:none;
+
+}
+
+
+
+#submit .submit {
+
+    padding-top:            10px;
+
+    padding-left:       15px;
+
+    padding-right:      15px;
+
+    _padding-left:       5px;
+
+    _padding-right:      5px;
+
+    font-weight:        bold;
+
+    font-family:          Arial, sans-serif;
+
+    font-size:          17px;
+
+    background-image: url('/images/btn_background.jpg');
+
+    background-repeat: repeat-x;
+
+    border: 0 none;
+
+    color: #FFFFFF;
+
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+
+    height:       40px;
+
+}
+
+
+
+
+
+input, textarea, select, option {
+
+border: 1px solid #999;
+
+border-radius: 2px;
+
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1) inset;
+
+color: #000;
+
+height: 15px;
+
+padding: 4px 6px; 
+
+_padding: 0px 6px; 
+
+}
+
+
+
+input:focus, textarea:focus {
+
+    background: none repeat scroll 0% 0% #FFF;
+
+    border-color: #3A3A3A;
+
+    color: #000;
+
+    outline: 0px none;
+
+}
+
+
+
+input[readonly], select[readonly], select.readonly, input.readonly
+
+{
+
+    color:#666666;
+    background-color:#ECECEC;
+
+
+    
+    -webkit-touch-callout:none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -moz-user-input: disabled;
+    -ms-user-select: note;
+    
+} 
+
+
+
+input[type=checkbox]  {
+
+    height: 20px;
+
+    width: 20px;
+
+}
+
+
+
+table {
+
+  text-align:           left;
+
+  width:                95%;
+  
+  font-size:            12px;
+
+  font-family:          sans-serif;
+
+  color:           #666666;
+
+  margin:               20px;
+
+}
+
+
+
+table th {
+
+  padding-bottom:       15px;
+
+}
+
+
+
+table td.label {
+
+  width:                140px;
+
+}
+
+
+
+table td.label-mandatory {
+
+  width:                140px;
+
+  color:orange;
+
+}
+
+
+
+table.calc td {
+
+padding: 7px;
+
+font-weight:normal;
+
+width: 12.5%;
+
+}
+
+
+
+table.calc tr {
+
+color: grey;
+
+text-align:center;
+
+}
+
+
+
+table td.shipmenttype-N  {
+
+width:310px;
+
+background-image: url('/images/non-document.gif');
+
+background-repeat: no-repeat;
+
+background-position:0px 0px;
+
+}
+
+
+
+table td.shipmenttype-D {
+
+width:310px;
+
+background-image: url('/images/document.gif');
+
+background-repeat: no-repeat;
+
+background-position:0px 0px;
+
+}
+
+#error {
+
+padding-top:10px;
+
+padding-bottom:10px;
+
+_padding-top:25px;
+
+width:960px;
+
+background-color:#F79C9B;
+
+color:#F00; 
+
+}
+
+h1 {
+
+  font-size:            20px;
+
+  height: 42px;
+
+  line-height: 42px;
+
+  margin: 4px 0px 0px;
+
+  padding-left: 64px;
+
+  background-color: transparent;
+
+  background-image: url('/images/icons.png');
+
+  background-repeat: no-repeat;
+
+  background-position: -3px -5px;
+
+}
+
+
+
+h1.topic-login{
+
+  padding-left: 50px;
+
+  background-position: -3px -285px;
+
+}
+
+
+
+
+
+h2 {
+
+  font-weight:bold;
+
+  background-image: url('/images/h2_background.jpg');
+
+  background-repeat: repeat-x;
+
+  color: #737373;
+
+  font-size: 14px;
+
+  margin: 0px;
+
+  padding: 7px 10px 3px;
+
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+
+}
+
+h3 {
+
+  font-size:      13px;
+  font-weight:    bold;
+  margin-top:    14px;
+} 
+
+
+strong {
+
+font-size:        12px;
+
+color:       black;
+
+}
