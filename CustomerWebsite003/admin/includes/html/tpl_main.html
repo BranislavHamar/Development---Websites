@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<HTML>
+<HEAD>
+  <title>FreshCMS h.sk</title>
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Language" content="sk">
+    <meta http-equiv="expires" content="0 days">
+    <meta name="Description" content="X">
+    <meta name="keywords" content="X">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="allow-search" content="yes">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="Safe For Kids">
+    <meta name="copyright" content="trustsolutions.sk">
+    <meta name="revisit-after" content="0 days">
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+  
+    <link rel="stylesheet" href="includes/css/tpl_main.css" type="text/css" media="screen" >
+    <link rel="stylesheet" href="includes/css/tpl_main_wisiwig.css" type="text/css" media="screen" >
+
+  
+    <script type="text/javascript" src="includes/js/ckeditor.js"></script>
+    
+        <script type="text/javascript" src="includes/js/wysiwyg.js"></script>
+
+		<script type="text/javascript" src="includes/js/wysiwyg-settings.js"></script>
+
+
+    <script language="javascript1.2">
+      var form_id;
+        function confirm_delete(go_url)
+          {
+          var answer = confirm("Ste si istí, že chcete vymazať tento záznam?");
+            if (answer)
+            {
+            location=go_url;
+            }
+          }
+    </script>
+
+<script language="javascript1.2">
+
+/*
+Submit Once form validation- 
+© Dynamic Drive (www.dynamicdrive.com)
+For full source code, usage terms, and 100's more DHTML scripts, visit http://dynamicdrive.com
+*/
+
+function submitonce(theform){
+//if IE 4+ or NS 6+
+if (document.all||document.getElementById){
+//screen thru every element in the form, and hunt down "submit" and "reset"
+for (i=0;i<theform.length;i++){
+var tempobj=theform.elements[i]
+if(tempobj.type.toLowerCase()=="submit"||tempobj.type.toLowerCase()=="reset")
+//disable em
+tempobj.disabled=true
+}
+}
+}
+</script>
+
+</HEAD>
+<BODY>
+
+<DIV ID="menu">
+{Menu}
+</DIV>
+
+<DIV ID="content">
+{Content}
+</DIV>
+
+</BODY>
+</HTML>
