@@ -1,0 +1,27 @@
+body{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4F4F4F;
+  margin: 0 0 0 0;
+  padding: 200 0 0 0; 
+  }
+
+#form_login {
+  padding: 0 0 0 0;
+  background-image: url("../../images/bg-login.gif");
+  width: 380px;
+  height: 228px;
+}
+
+#form_login .form_input{
+  padding: 30 100 10 0;
+  text-align: right;
+}
+
+
+#form_login .form_logo {
+  padding: 8 0 0 0;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+}
